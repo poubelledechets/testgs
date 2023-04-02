@@ -24,7 +24,7 @@ function addGS() {
     },
     redirect: "follow", // manual, *follow, error
     // referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-    body: JSON.stringify({name:"Alex"}), // body data type must match "Content-Type" header
+    body: JSON.stringify({"id":325,"operationreference":"BTQ2307-FEN40HGLAF","fonction":"Bureau Etudes Fluides CFO-CFA","lot":"ECF&FAI","nomundefinedsociete":"REFLEXION INGENIERIE","adresse":"39 av du MAL de Lattre de Tassigny","codeundefinedpostal":94350,"ville":"VILLIERS SUR MARNE","pays":"FRANCE","prenom&nom":"Hervé Heude","telundefinedport":"+33 +336 84 93 38 83","logo":"","mel":"h.heude@reflexioningenierie.com","niveau":9,"adresseundefinedpostal":"39 av du MAL de Lattre de Tassigny 94350 VILLIERS SUR MARNE"}), // body data type must match "Content-Type" header
   });
     
     }
